@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: rgb(93, 38, 89);
+  color: rgb(0, 0, 0);
+}
+
+.main {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "sidebar content content"
+    "footer footer footer";
+  font-family: "Oswald";
+  background-color: #473d53;
+}
+
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-left: 1em;
+  align-items: center;
+  background-color: #231942;
+  color: antiquewhite;
+  height: 10dvh;
+  width: 100dvw;
+  align-self: start;
+  position: fixed;
+  z-index: 1;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #9f86c0;
+  height: 100%;
+  width: 7dvw;
+  padding: 4dvw;
+  position: fixed;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #231942;
+  color: antiquewhite;
+  height: 10dvh;
+  width: 100dvw;
+  align-self: end;
+  z-index: 2;
+}
+
+.content {
+  grid-area: content;
+  background-color: antiquewhite;
+  padding: 3dvw;
+}
+
+.co {
+  color: #f5deb3;
+}
+
+.navTitle {
+  font-weight: lighter;
+  font-size: 1.7rem;
+  margin-left: 1em;
+}
+
+.mediaref:hover {
+    scale: 1.3;
+}
