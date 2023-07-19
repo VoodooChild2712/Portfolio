@@ -1,0 +1,47 @@
+.container {
+  width: 80dvw;
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  color: wheat;
+  padding: 2rem;
+  z-index: 0;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Oswald";
+  filter: drop-shadow(10px 10px 3px black);
+  margin-left: 20%;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Oswald";
+  filter: drop-shadow(10px 10px 3px black);
+  margin-bottom: 5rem;
+  margin-left: 20%;
+}
+
+.presentation {
+  line-height: 2rem;
+  color: #1c1a21;
+  padding: 2rem;
+  letter-spacing: 1px;
+  backdrop-filter: blur(10px) saturate(166%);
+  -webkit-backdrop-filter: blur(10px) saturate(166%);
+  background-color: #c7bba4;
+  border-radius: 12px;
+  border: 5px solid #a69388;
+  margin-bottom: 5rem;
+  margin-left: 20%;
+  filter: drop-shadow(20px 20px 3px #441c3e);
+  text-align: center;
+}
