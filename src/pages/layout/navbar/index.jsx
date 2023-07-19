@@ -8,19 +8,19 @@ const Navbar = () => {
       <h1 className={styles.navTitle}>Gianfranco Marzulli</h1>
       <div className={styles.navButtons}>
         <div className={styles.mediaRefNav}>
-          <a href="/" className="bi bi-house-door fs-2"></a>
+          <a href="/" className="bi bi-house-door fs-2"> </a>
         </div>
         <div className={styles.mediaRefNav}>
-          <a href="/portfolio" className="bi bi-briefcase fs-2"></a>
+          <a href="/portfolio" className="bi bi-briefcase fs-2"> </a>
         </div>
         <div className={styles.mediaRefNav}>
-          <a href="/resume" className="bi bi-file-earmark-person fs-2"></a>
+          <a href="/resume" className="bi bi-file-earmark-person fs-2"> </a>
         </div>
         <div className={styles.mediaRefNav}>
-          <a href="/contact-me" className="bi bi-envelope fs-2"></a>
+          <a href="/contact-me" className="bi bi-envelope fs-2"> </a>
         </div>
         <div className={styles.mediaRefNav}>
-          <a href="/about-me" className="bi bi-book fs-2"></a>
+          <a href="/about-me" className="bi bi-book fs-2"> </a>
         </div>
       </div>
     </div>

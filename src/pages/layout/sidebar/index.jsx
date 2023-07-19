@@ -10,20 +10,20 @@ const Sidebar = () => {
           href="https://www.linkedin.com/in/gianfranco-marzulli-929713230"
           className="bi bi-linkedin text-dark fs-1"
           target="blank"
-        ></a>
+        > </a>
       </div>
       <div className={styles.mediaRef}>
         <a
           href="https://github.com/VoodooChild2712"
           className="bi bi-github text-dark fs-1"
           target="blank"
-        ></a>
+        > </a>
       </div>
       <div className={styles.mediaRef}>
         <a
           href="mailto:marzulligianfranco@gmail.com"
           className="bi bi-envelope text-dark fs-1"
-        ></a>
+        > </a>
       </div>
     </div>
   );

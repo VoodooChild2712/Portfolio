@@ -73,7 +73,7 @@ Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
   color: #EAEAEA;
   height: 10dvh;
   width: 100dvw;
-  align-self: start;
+  align-self: flex-start;
   position: fixed;
   z-index: 100;
 }
@@ -82,7 +82,7 @@ Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .navbar a {
@@ -113,7 +113,7 @@ Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
   color: antiquewhite;
   height: 10dvh;
   width: 100dvw;
-  align-self: end;
+  align-self: flex-end;
   z-index: 2;
 }
 
