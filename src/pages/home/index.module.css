@@ -29,7 +29,7 @@
 }
 
 .homelink::before {
-  background-color: #7c2c74;
+  background-color: rgb(255, 127, 80);
   height: 2px;
   bottom: 0;
   transform-origin: 100% 50%;
@@ -44,7 +44,7 @@
   transform-origin: 100% 50%;
   transform: translate3d(200%, 0, 0);
   transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-  color: #97348d;
+  color: rgb(255, 127, 80);
 }
 
 .homelink:hover::before {
@@ -77,34 +77,46 @@
   flex-direction: column;
   margin-bottom: 5rem;
   width: 90%;
-  margin-left: 33dvw;
+  margin-left: 30dvw;
 }
 
 .intro {
   line-height: 3rem;
-  color: wheat;
+  color: #1C1A21;
   padding: 20px;
-
+  letter-spacing: 1px;
   backdrop-filter: blur(10px) saturate(166%);
   -webkit-backdrop-filter: blur(10px) saturate(166%);
-  background-color: #111928d4;
+  background-color: #C7BBA4;
   border-radius: 12px;
-  border: 1px solid #ffffff20;
+  border: 5px solid #A69388;
+  filter: drop-shadow(15px 15px 3px #7E735E);
+  margin-bottom: 3rem;
+}
+
+.navButtons {
+  display: none;
 }
 
 .logo {
   height: 70%;
   width: 70%;
-  margin-bottom: 8rem;
-  margin-top: 2rem;
-  opacity: 0;
-  animation: fadeIn 5s forwards; /* Duración y dirección de la animación */
+  margin-top: 6rem;
 }
-@keyframes fadeIn {
-  from {
-    opacity: .1; /* Opacidad inicial */
-  }
-  to {
-    opacity: 1; /* Opacidad final */
-  }
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.slogan {
+  font-size: 3rem;
+  color: white;
+  margin-top: 1rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  filter: drop-shadow(10px 10px 5px black);
 }

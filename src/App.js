@@ -6,6 +6,7 @@ import Layout from "./pages/layout";
 import AnimatedCursor from "react-animated-cursor";
 import AboutMe from "./pages/about-me";
 import ContactMe from "./pages/contact-me";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const routerConfig = createBrowserRouter([
   {
@@ -41,12 +42,12 @@ function App() {
     <>
       <RouterProvider router={routerConfig} />
 	  <AnimatedCursor
-      innerSize={8}
-      outerSize={8}
-      color='94, 84, 142'
+      innerSize={9}
+      outerSize={7}
+      color='255, 127, 80'
       outerAlpha={0.2}
       innerScale={0.7}
-      outerScale={5}
+      outerScale={7}
       clickables={[
         'a',
         'input[type="text"]',

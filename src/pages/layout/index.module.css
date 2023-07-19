@@ -1,5 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
+/* sugerencias del gpt
+actual: 
+Background (General): HEX1D1D1D (Dark gray)
+Navbar: HEX2E1C2B (Deep burgundy)
+Footer: HEX4A1942 (Dark plum)
+Aside: HEX893168 (Deep mauve)
+Font Color: HEXEAEAEA (Light gray)
+Card Color: HEXC7BBA4 (Soft beige)
+Shadow Color (for cards): HEX7E735E (Dark shade complementing the card color)
+
+Paleta de verdes:
+Background: HEX131D12 (Dark green)
+Navbar: HEX275D3A (Deep green)
+Footer: HEX325F41 (Forest green)
+Aside: HEX437A50 (Muted green)
+Font Color: HEXEAEAEA (Light gray)
+Card Color: HEXB2CFA5 (Soft green)
+Shadow Color (for cards): HEX85997B (Dark shade complementing the card color)
+
+Paleta de azules:
+Background: HEX101A1F (Dark blue)
+Navbar: HEX274B5A (Deep blue)
+Footer: HEX325564 (Navy blue)
+Aside: HEX436874 (Muted blue)
+Font Color: HEXEAEAEA (Light gray)
+Card Color: HEXA8C3D1 (Soft blue)
+Shadow Color (for cards): HEX74879A (Dark shade complementing the card color)
+
+Paleta de violetas
+
+Background: HEX0E0C13 (Dark purple)
+Navbar: HEX29203D (Deep purple)
+Footer: HEX403658 (Eggplant purple)
+Aside: HEX593D66 (Muted purple)
+Font Color: HEXEAEAEA (Light gray)
+Card Color: HEX9C86A1 (Soft purple)
+Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -18,23 +58,35 @@
     "sidebar content content"
     "footer footer footer";
   font-family: "Oswald";
-  background-color: #473d53;
+  background-color: #1D1D1D;
+  overflow-x: hidden
 }
 
 .navbar {
   grid-area: navbar;
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  padding-left: 1em;
+  justify-content: space-between;
+  padding: 1em;
   align-items: center;
-  background-color: #231942;
-  color: antiquewhite;
+  background-color: #2e1c2b;
+  color: #EAEAEA;
   height: 10dvh;
   width: 100dvw;
   align-self: start;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.navbar a {
+  color: #EAEAEA;
 }
 
 .sidebar {
@@ -43,11 +95,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #9f86c0;
+  background-color: #893168;
   height: 100%;
   width: 7dvw;
   padding: 4dvw;
   position: fixed;
+  z-index: 5;
 }
 
 .footer {
@@ -56,7 +109,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #231942;
+  background-color: #4A1942;
   color: antiquewhite;
   height: 10dvh;
   width: 100dvw;
@@ -80,6 +133,21 @@
   margin-left: 1em;
 }
 
-.mediaref:hover {
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 0 1rem;
+}
+
+.mediaRef:hover {
     scale: 1.3;
+}
+
+.mediaRefNav:hover {
+  scale: 1.3;
+}
+
+.mediaRefNav {
+  margin: 0 .5rem;
 }
