@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
+import resume from "./images/Resume.jpg";
 
 const Resume = () => {
   return (
@@ -47,6 +48,12 @@ const Resume = () => {
         full potential of your online presence. Reach out today, and let's
         create something extraordinary together.
       </h2>
+      <h3 className={styles.resumePresentation}>
+        Below the formal resume (you've might recieved a few of these)
+      </h3>
+      <div className={styles.resumeContainer}>
+        <img className={styles.resumeFile} src={resume} alt="resume" />
+      </div>
     </div>
   );
 };

@@ -102,6 +102,7 @@
   height: 70%;
   width: 70%;
   margin-top: 6rem;
+  filter: drop-shadow(10px 10px 2px #333333);
 }
 
 .logoContainer {
@@ -118,5 +119,5 @@
   margin-top: 1rem;
   font-weight: 600;
   letter-spacing: 3px;
-  filter: drop-shadow(10px 10px 5px black);
+  filter: drop-shadow(10px 10px 2px #333333);
 }

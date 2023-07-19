@@ -2,6 +2,8 @@
   width: 80dvw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #1d1d1d;
   color: wheat;
   padding: 2rem;
@@ -17,7 +19,7 @@
   font-family: "Oswald";
   filter: drop-shadow(10px 10px 3px black);
   margin-left: 20%;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
@@ -26,7 +28,7 @@
   font-weight: bold;
   font-family: "Oswald";
   filter: drop-shadow(10px 10px 3px black);
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   margin-left: 20%;
 }
 
@@ -40,8 +42,36 @@
   background-color: #c7bba4;
   border-radius: 12px;
   border: 5px solid #a69388;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   margin-left: 20%;
   filter: drop-shadow(20px 20px 3px #441c3e);
   text-align: center;
+  border-radius: 40px 200px 200px 200px;
+  -webkit-border-radius: 40px 200px 200px 200px;
+  -moz-border-radius: 40px 200px 200px 200px;
+}
+
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-left: 20%;
+  filter: drop-shadow(20px 20px 3px #441c3e);
+  margin-bottom: 10rem;
+}
+
+.resumeFile {
+  width: 100%;
+  height: 100%;
+}
+
+.resumePresentation {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Oswald";
+  filter: drop-shadow(10px 10px 3px black);
+  margin-bottom: 4rem;
+  margin-left: 20%;
 }
