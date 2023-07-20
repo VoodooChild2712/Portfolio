@@ -14,7 +14,7 @@
   }
   
   .portfolioTitle {
-    font-size: 7rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: "Oswald";
     filter: drop-shadow(10px 10px 3px black);
@@ -38,6 +38,7 @@
   }
   
   .introText {
+    font-size: 1.4rem;
     line-height: 2rem;
     color: #1C1A21;
     padding: 2rem;

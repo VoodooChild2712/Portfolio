@@ -212,7 +212,7 @@ const Portfolio = () => {
         <div className={styles.intro}>
           <h2 className={styles.introText}>
             So, grab a cup of coffee, sit back, and enjoy the journey. Let's
-            make your digital dreams a reality together!"
+            make your digital dreams a reality together!
           </h2>
         </div>
         <div className={styles.carouselContainer}>
