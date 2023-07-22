@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <h1 className={styles.navTitle}>Gianfranco Marzulli</h1>
+      <h1 className={styles.navTitle}>Gianfranco {"<"}/{">"} Marzulli</h1>
       <div className={styles.navButtons}>
         <div className={styles.mediaRefNav}>
           <a href="/" className="bi bi-house-door fs-2"> </a>

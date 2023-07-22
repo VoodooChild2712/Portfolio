@@ -53,110 +53,113 @@ Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
 
 /* mobile responsive */
 
-.main {
-  display: grid;
-  grid-template-areas:
-    "navbar navbar navbar"
-    "content content content"
-    "footer footer footer";
-  font-family: "Oswald";
-  background-color: #1d1d1d;
-  overflow-x: hidden;
-}
+@media (max-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-areas:
+      "navbar navbar navbar"
+      "content content content"
+      "footer footer footer";
+    font-family: "Oswald";
+    background-color: #1d1d1d;
+    overflow-x: hidden;
+  }
 
-.navbar {
-  grid-area: navbar;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
-  background-color: #2e1c2b;
-  color: #eaeaea;
-  height: 10dvh;
-  width: 100dvw;
-  align-self: flex-start;
-  position: fixed;
-  z-index: 100;
-}
+  .navbar {
+    grid-area: navbar;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #2e1c2b;
+    color: #eaeaea;
+    height: 10dvh;
+    width: 100dvw;
+    align-self: flex-start;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+  }
 
-.navTitle {
-  font-weight: 500;
-  font-size: 1.2rem;
-  margin-left: 1em;
-  color: #f5f5f5;
-}
+  .navTitle {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 1em;
+    color: #f5f5f5;
+  }
 
-.navButtons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-}
+  .navButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
-.navbar a {
-  color: #eaeaea;
-}
+  .navbar a {
+    color: #eaeaea;
+  }
 
-.sidebar {
-  display: none;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #893168;
-  height: 100%;
-  width: 7dvw;
-  padding: 4dvw;
-  position: fixed;
-  z-index: 5;
-}
+  .sidebar {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #893168;
+    height: 100%;
+    width: 7dvw;
+    padding: 4dvw;
+    position: fixed;
+    z-index: 5;
+  }
 
-.footer {
-  grid-area: footer;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #4a1942;
-  color: antiquewhite;
-  height: 10dvh;
-  width: 100dvw;
-  align-self: flex-end;
-  z-index: 2;
-}
+  .footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a1942;
+    color: antiquewhite;
+    height: 10dvh;
+    width: 100dvw;
+    align-self: flex-end;
+    z-index: 2;
+  }
 
-.content {
-  grid-area: content;
-  background-color: antiquewhite;
-  padding: 3dvw;
-}
+  .content {
+    grid-area: content;
+    background-color: antiquewhite;
+    padding: 3dvw;
+  }
 
-.co {
-  color: #f5deb3;
-}
+  .co {
+    color: #f5deb3;
+  }
 
-.navButtons {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem;
-  margin: 0 1rem;
-}
+  .navButtons {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 0 1rem;
+  }
 
-.mediaRef:hover {
-  scale: 1.3;
-}
+  .mediaRef:hover {
+    scale: 1.3;
+  }
 
-.mediaRefNav:hover {
-  scale: 1.3;
-}
+  .mediaRefNav:hover {
+    scale: 1.3;
+  }
 
-.mediaRefNav {
-  margin: 0 0.5rem;
+  .mediaRefNav {
+    margin: 0 0.5rem;
+  }
 }
 
 /* tablet responsive */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .main {
     display: grid;
     grid-template-areas:
