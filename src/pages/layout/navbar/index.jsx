@@ -33,11 +33,6 @@ const Navbar = () => {
             </a>
           </div>
           <div className={styles.mediaRefNav}>
-            <a href="/contact-me" className="bi bi-envelope fs-2">
-              {" "}
-            </a>
-          </div>
-          <div className={styles.mediaRefNav}>
             <a href="/about-me" className="bi bi-book fs-2">
               {" "}
             </a>

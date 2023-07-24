@@ -30,13 +30,6 @@ const Home = () => {
             >
               <span>About me</span>
             </Link>
-            <Link
-              to="/contact-me"
-              className={styles.homelink}
-              data-replace="Contact me"
-            >
-              <span>Contact me</span>
-            </Link>
           </li>
         </div>
         <div className={styles.right}>

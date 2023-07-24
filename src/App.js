@@ -5,7 +5,6 @@ import Resume from "./pages/resume";
 import Layout from "./pages/layout";
 import AnimatedCursor from "react-animated-cursor";
 import AboutMe from "./pages/about-me";
-import ContactMe from "./pages/contact-me";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const routerConfig = createBrowserRouter([
@@ -29,10 +28,6 @@ const routerConfig = createBrowserRouter([
         path: "/about-me",
         element: <AboutMe />,
       },
-      {
-        path: "/contact-me",
-        element: <ContactMe />,
-      },
     ],
   },
 ]);
@@ -41,27 +36,27 @@ function App() {
   return (
     <>
       <RouterProvider router={routerConfig} />
-	  <AnimatedCursor
-      innerSize={9}
-      outerSize={7}
-      color='255, 127, 80'
-      outerAlpha={0.2}
-      innerScale={0.7}
-      outerScale={7}
-      clickables={[
-        'a',
-        'input[type="text"]',
-        'input[type="email"]',
-        'input[type="number"]',
-        'input[type="submit"]',
-        'input[type="image"]',
-        'label[for]',
-        'select',
-        'textarea',
-        'button',
-        '.link'
-      ]}
-	  />
+      <AnimatedCursor
+        innerSize={9}
+        outerSize={7}
+        color="255, 127, 80"
+        outerAlpha={0.2}
+        innerScale={0.7}
+        outerScale={7}
+        clickables={[
+          "a",
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          "label[for]",
+          "select",
+          "textarea",
+          "button",
+          ".link",
+        ]}
+      />
     </>
   );
 }
