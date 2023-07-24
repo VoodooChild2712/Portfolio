@@ -333,7 +333,7 @@ Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #4a1942;
     color: antiquewhite;
     height: fit-content;
