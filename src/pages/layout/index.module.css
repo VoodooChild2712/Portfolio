@@ -98,6 +98,8 @@ Shadow Color (for cards): HEX6F5B74 (Dark shade complementing the card color)
 
   .navbar a {
     color: #eaeaea;
+    height: 0.5rem;
+    width: 0.5rem;
   }
 
   .sidebar {

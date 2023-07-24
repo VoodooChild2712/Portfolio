@@ -1,68 +1,70 @@
 /* mobile responsive */
 
-.home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100dvw;
-  padding: 2rem;
-}
+@media (max-width: 767px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100dvw;
+    padding: 2rem;
+  }
 
-.left {
-  display: flex;
-}
+  .left {
+    display: flex;
+  }
 
-.right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 5rem;
-}
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
 
-.intro {
-  font-size: 1.4rem;
-  line-height: 3rem;
-  color: #1c1a21;
-  padding: 20px;
-  letter-spacing: 1px;
-  backdrop-filter: blur(10px) saturate(166%);
-  -webkit-backdrop-filter: blur(10px) saturate(166%);
-  background-color: #c7bba4;
-  border-radius: 12px;
-  border: 5px solid #a69388;
-  filter: drop-shadow(15px 15px 3px #7e735e);
-  margin-bottom: 3rem;
-}
+  .intro {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    color: #1c1a21;
+    padding: 20px;
+    letter-spacing: 1px;
+    backdrop-filter: blur(10px) saturate(166%);
+    -webkit-backdrop-filter: blur(10px) saturate(166%);
+    background-color: #c7bba4;
+    border-radius: 12px;
+    border: 5px solid #a69388;
+    filter: drop-shadow(15px 15px 3px #7e735e);
+    margin-bottom: 3rem;
+  }
 
-.logo {
-  height: 80%;
-  width: 80%;
-  margin-top: 6rem;
-  filter: drop-shadow(10px 10px 2px #333333);
-}
+  .logo {
+    height: 80%;
+    width: 80%;
+    margin-top: 6rem;
+    filter: drop-shadow(10px 10px 2px #333333);
+  }
 
-.logoContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 7rem;
-}
+  .logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7rem;
+  }
 
-.slogan {
-  font-size: 1.2rem;
-  color: #c0c0c0;
-  margin-top: 1rem;
-  font-weight: 600;
-  letter-spacing: 3px;
-  filter: drop-shadow(10px 10px 2px #333333);
+  .slogan {
+    font-size: 1.2rem;
+    color: #c0c0c0;
+    margin-top: 1rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    filter: drop-shadow(10px 10px 2px #333333);
+  }
 }
 
 /* tablet responsive */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .home {
     display: flex;
     flex-direction: column;
@@ -256,5 +258,3 @@
     filter: drop-shadow(10px 10px 2px #333333);
   }
 }
-
-
